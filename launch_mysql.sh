@@ -187,7 +187,7 @@ if [ "$1" = 'mysqld' -a -z "$wantHelp" ]; then
 		if [ "$MANGOS_SERVER_VERSION" -gt 1 ]; then
 			MANGOS_WORLD_DB=mangos
 			MANGOS_CHARACTER_DB=characters
-		elif [ "$MANGOS_SERVER_VERSION" -eq 1 ]
+		elif [ "$MANGOS_SERVER_VERSION" -eq 1 ] then
 			MANGOS_WORLD_DB=mangos1
 			MANGOS_CHARACTER_DB=character1
 		else
